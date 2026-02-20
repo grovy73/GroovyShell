@@ -1,4 +1,4 @@
-FLAGS = -Iincludes
+FLAGS = -Iincludes -Wall -Wextra
 
 build:
 	gcc src/*.c -o gsh $(FLAGS)
