@@ -64,7 +64,7 @@ int main(void) {
   for (;;) {
     printf("$ ");
     fflush(stdout);
-    fgets(inBuffer, 64, stdin);
+    if(!fgets(inBuffer, 64, stdin)) break;
 
     int argsSize = countWords(inBuffer);
 
