@@ -3,7 +3,7 @@ Welcome to the GroovyShell repo. This shell is not meant to be used. It is a toy
 ## Building from source
 Clone the repository and run the make file
 ```bash
-git clone
+git clone https://github.com/grovy73/GroovyShell.git
 cd GroovyShell
 make
 ```
